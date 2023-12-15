@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfllio - Sithum Gamage</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c1671e6af7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Servises</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!--<i class="fa-solid fa-circle-xmark"></i>-->
+          </ul>
+          <!-- <i class="fa-solid fa-bars"></i>-->
+        </nav>
+        <div class="header-text">
+          <p>Software Engineer 🖥️ || Undergraduate at SLIIT 🎓</p>
+          <h1>Hi! <span>Sithum Gamage </span><br />from Sri Lanka</h1>
+        </div>
+      </div>
+    </div>
+
+    <!--About Section-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/sithum.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-titile">About Me</h1>
+            <p>
+              I am a 4th year undergraduate student at SLIIT, majoring in
+              Software Engineering. I have a strong foundation in programming
+              languages, including JavaScript ,Java, C, C++, PHP, and Python. I
+              am also familiar with a variety of frameworks, such as
+              ReactJS,ExpressJs. I have experience with HTML, CSS, and I have a
+              good understanding of ERP systems, including IFS ERP and Acumatica
+              ERP. Also I have solid understanding about Data base technologies
+              such as SQL, PL/SQL , MongoDB. I am a highly motivated and
+              self-driven individual. I am eager to learn and take on new
+              challenges. I am confident that I have the skills and experience
+              that you are looking for in an intern. Thank you for considering
+              my application. I am looking forward to the possibility of
+              contributing to your team and learning from the best in the
+              industry. Please find my resume attached for your review. I am
+              available at your convenience for an interview to discuss how my
+              qualifications align with your team's needs.
+            </p>
+            <!--Tab Links-->
+            <div class="tab-titiles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <!-- Tab Contents -->
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Frontend Developer</span><br />ReactJs HTML CSS</li>
+                <li><span>Backend Development Developer</span><br />NodeJS</li>
+                <li><span>Web Development</span><br />Web sites development</li>
+                <li><span>UI/UX designing</span><br />Figma</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2023 - March to August (7 months)</span><br />Worked as
+                  a intern software engineer - RigServ LLC
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2020 - 2024</span><br />Bsc(hons) information technology
+                  specializing in Software Engineering at Sri Lanka Institute Of
+                  Information Technology(SLIIT)
+                </li>
+                <li>
+                  <span>2004 - 2017</span><br />A/L(Biological Science) at
+                  Mo/J.M Kumaradasa M.V - Wellawaya
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Services-->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-titile">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-computer"></i>
+            <h2>Frontend Development</h2>
+            <p>
+              I am a highly motivated and self-driven individual. I am eager to
+              learn and take on new challenges. I am confident that I have the
+              skills and experience that you are looking for in an intern.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Backend Development</h2>
+            <p>
+              I am a highly motivated and self-driven individual. I am eager to
+              learn and take on new challenges. I am confident that I have the
+              skills and experience that you are looking for in an intern.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <h2>Web Development</h2>
+            <p>
+              I am a highly motivated and self-driven individual. I am eager to
+              learn and take on new challenges. I am confident that I have the
+              skills and experience that you are looking for in an intern.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Portfolio-->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Revonta Herbs</h3>
+              <p>
+                This project is a comprehensive e-commerce platform built on the
+                MERN stack (MongoDB, Express.js, ReactJS, Node.js) with
+                additional technologies such as Redux for state management,
+                HTML, CSS, and Bootstrap for frontend design, and Docker and
+                Kubernetes for containerization and orchestration.
+              </p>
+              <a href="https://github.com/SithumGamage98/Revonta_Herbs"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>App 2</h3>
+              <p>
+                I am a highly motivated and self-driven individual. I am eager
+                to learn and take on new challenges. I am confident that I have
+                the skills and experience that you are looking for in an intern.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>App 6</h3>
+              <p>
+                I am a highly motivated and self-driven individual. I am eager
+                to learn and take on new challenges. I am confident that I have
+                the skills and experience that you are looking for in an intern.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!--Contact-->
+    <div id="contact">
+      '
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-titile">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>sithumgamage180@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>0711874929</p>
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/sithum.gam
+              age.1232/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="http://www.linkedin.com/in/sithum-gamage-057ab7240"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <!--Download button and download function-->
+            <a href="images/Sithum Gamage_SE.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Enter your name" />
+              <input type="text" name="Email" placeholder="Enter your email" />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Enter your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <!--After submit what happen?-->
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @Sithum. Made with Sithum's 😎 codings</p>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName('tab-links');
+      var tabcontents = document.getElementsByClassName('tab-contents');
+      <!--functions for both tablinks and tabcontents-->
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove('active-link');
+        }
+
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove('active-tab');
+        }
+
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab');
+      }
+    </script>
+    <script>
+      const scriptURL =
+        'https://script.google.com/macros/s/AKfycbycN2WxIuYS2Ruv-Jk6QjXQ2XZXiptOCZxnjkqAbp88ieoi6Zvn5OUviG0RZlonT2bj/exec';
+      const form = document.forms['submit-to-google-sheet'];
+      const msg = document.getElementById('msg');
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = 'Message sent successfully';
+            setTimeout(function () {
+              msg.innerHTML = '';
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error('Error!', error.message));
+      });
+    </script>
+  </body>
+</html>
