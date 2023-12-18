@@ -75,7 +75,7 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-  color: rgb(125, 225, 103);
+  color: rgb(97, 185, 92);
 }
 
 /* about section */
@@ -359,7 +359,7 @@ nav.i.fa-circle-xmark,
 @media only screen and (max-width: 600px) {
   /*Change cover photo */
   #header {
-    background-image: url(images/gamagem.jpg);
+    background-image: url(images/gamage.jpg);
   }
   /*Change header text sizes */
   .header-text {
