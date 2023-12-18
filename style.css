@@ -75,7 +75,7 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-  color: aquamarine;
+  color: rgb(125, 225, 103);
 }
 
 /* about section */
@@ -141,7 +141,7 @@ nav ul li a:hover::after {
 }
 
 .tab-contents ul li span {
-  color: sienna;
+  color: rgb(29, 249, 5);
   font-size: 14px;
 }
 
@@ -263,7 +263,7 @@ nav ul li a:hover::after {
   display: block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid #ff004f;
+  border: 1px solid #61b752;
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
@@ -289,7 +289,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-  color: #ff004f;
+  color: #61b752;
   margin-right: 15px;
   font-size: 25px;
 }
@@ -308,13 +308,13 @@ nav ul li a:hover::after {
 }
 
 .social-icons a:hover {
-  color: #ff004f;
+  color: #ababab;
   transform: translateY(-5px);
 }
 
 .btn.btn2 {
   display: inline-block;
-  background: #ff004f;
+  background: #61b752;
 }
 
 .contact-right form {
@@ -359,7 +359,7 @@ nav.i.fa-circle-xmark,
 @media only screen and (max-width: 600px) {
   /*Change cover photo */
   #header {
-    /* background-image: url(); */
+    background-image: url(images/gamagem.jpg);
   }
   /*Change header text sizes */
   .header-text {
